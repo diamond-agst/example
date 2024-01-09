@@ -1,0 +1,57 @@
+.whyBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.whyBlocKContent{
+    display: flex;
+    align-items: center;
+}
+.whyBlockContentText{
+    display: flex;
+    flex-direction: column;
+}
+.whyBlockContentText >h2{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.whyBlockContentRowPink ,
+.whyBlockContentRowWhite ,
+.whyBlockContentRowYellow{
+    display: flex;
+    width: 700px;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 5px 30px 0px rgba(0, 0, 0, 0.15);
+    align-items: center;
+}
+.whyBlockContentRowWhite{
+    background-color: white;
+}
+.whyBlockContentRowPink{
+    background-color: #FAAFCE;
+}
+.whyBlockContentRowYellow{
+    background-color: #FEE14E;
+}
+
+.whyBlocContentTextRow{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 2%;
+}
+.whyBlocContentTextRow >h3{
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+.whyBlocContentTextRow >li{
+    font-size: 20px;
+}
